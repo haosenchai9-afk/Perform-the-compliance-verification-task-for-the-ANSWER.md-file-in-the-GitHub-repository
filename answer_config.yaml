@@ -1,0 +1,5 @@
+# answer_config.yaml
+target_repo: "missing-semester"  # 目标 GitHub 仓库名（如你要验证的仓库叫 `my-repo`，则改为此名）
+target_branch: "master"         # 目标分支（如 `main` 分支则改为 "main"）
+answer_file_path: "ANSWER.md"   # 待验证文件在仓库中的路径（根目录下填 "ANSWER.md"，子目录填 "docs/ANSWER.md"）
+expected_content: "index.md"    # ANSWER.md 应包含的预期内容（如预期是 "README.md" 则修改）
